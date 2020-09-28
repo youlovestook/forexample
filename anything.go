@@ -3,7 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("HEllo everyone this is the most awesome class")
+	n, e := fmt.Println("HEllo everyone this is the most awesome class")
+	fmt.Println(n)
+	fmt.Println(e)
 	foo()
 	fmt.Println("something more")
 
