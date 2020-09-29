@@ -16,6 +16,9 @@ func main() {
 	fmt.Printf("%T\n", aa)
 	fmt.Println(bb)
 	fmt.Printf("%T\n", bb)
+
+	// this is called conversion and not casting
+
 	aa = int(bb)
 	fmt.Println(aa)
 	fmt.Printf("%T\n", aa)
