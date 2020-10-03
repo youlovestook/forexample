@@ -15,3 +15,5 @@ func foo() {
 func bar() {
 	fmt.Println("bar")
 }
+
+// defer is the last thing to happen before main closes
