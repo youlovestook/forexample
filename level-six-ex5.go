@@ -5,6 +5,9 @@ import (
 	"math"
 )
 
+type triangle struct {
+	length float64
+}
 type circle struct {
 	radius float64
 }
@@ -23,6 +26,11 @@ func (s square) area() float64 {
 	return s.length * s.length
 
 }
+func (t triangle) area() float64 {
+	return t.length * t.length
+
+}
+
 func info(s shape) {
 	x := s.area()
 	fmt.Println(x)
@@ -34,6 +42,11 @@ func main() {
 		length: 4.22,
 	}
 
+	tri := triangle{
+		length: 4.22,
+	}
+
+	info(tri)
 	info(sq)
 
 	fmt.Println("yay ya ya")
