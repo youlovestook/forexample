@@ -16,7 +16,7 @@ func main() {
 		fmt.Println(yyz)
 	}
 
-	fmt.Println(yyz)
+	//fmt.Println(yyz)  this will not print because the scope of yyz is only in the closure
 
 }
 
